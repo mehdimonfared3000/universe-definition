@@ -1,0 +1,898 @@
+[
+  {
+    "id": "a1b2c3d4-0001-4000-8000-000000000001",
+    "fileName": "equity_trading_US.csv",
+    "uploadedAt": "2026-01-15T09:30:00.000Z",
+    "headers": [
+      "ISIN",
+      "Ticker",
+      "Name",
+      "Currency",
+      "Exchange"
+    ],
+    "rows": [
+      [
+        "US0378331005",
+        "AAPL",
+        "Apple Inc.",
+        "USD",
+        "NASDAQ"
+      ],
+      [
+        "US5949181045",
+        "MSFT",
+        "Microsoft Corp.",
+        "USD",
+        "NASDAQ"
+      ],
+      [
+        "US0231351067",
+        "AMZN",
+        "Amazon.com Inc.",
+        "USD",
+        "NASDAQ"
+      ],
+      [
+        "US02079K3059",
+        "GOOGL",
+        "Alphabet Inc.",
+        "USD",
+        "NASDAQ"
+      ],
+      [
+        "US30303M1027",
+        "META",
+        "Meta Platforms Inc.",
+        "USD",
+        "NASDAQ"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0002-4000-8000-000000000002",
+    "fileName": "fixed_income_EU.csv",
+    "uploadedAt": "2026-01-20T14:15:00.000Z",
+    "headers": [
+      "ISIN",
+      "Issuer",
+      "Coupon",
+      "Maturity",
+      "Currency"
+    ],
+    "rows": [
+      [
+        "DE0001102481",
+        "German Govt",
+        "0.25%",
+        "2027-02-15",
+        "EUR"
+      ],
+      [
+        "FR0014007L00",
+        "French Govt",
+        "0.75%",
+        "2028-11-25",
+        "EUR"
+      ],
+      [
+        "IT0005466013",
+        "Italian Govt",
+        "0.95%",
+        "2026-12-01",
+        "EUR"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0003-4000-8000-000000000003",
+    "fileName": "derivatives_APAC.csv",
+    "uploadedAt": "2026-02-01T03:45:00.000Z",
+    "headers": [
+      "Contract",
+      "Underlying",
+      "Expiry",
+      "Strike",
+      "Type"
+    ],
+    "rows": [
+      [
+        "NKY-MAR26-C",
+        "Nikkei 225",
+        "2026-03-20",
+        "40000",
+        "Call"
+      ],
+      [
+        "HSI-JUN26-P",
+        "Hang Seng",
+        "2026-06-29",
+        "18000",
+        "Put"
+      ],
+      [
+        "ASX-SEP26-C",
+        "ASX 200",
+        "2026-09-17",
+        "8200",
+        "Call"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0005-4000-8000-000000000005",
+    "fileName": "fx_forwards_EU.csv",
+    "uploadedAt": "2026-02-14T08:20:00.000Z",
+    "headers": [
+      "Pair",
+      "Tenor",
+      "Rate",
+      "Notional",
+      "Settlement"
+    ],
+    "rows": [
+      [
+        "EUR/USD",
+        "1M",
+        "1.0825",
+        "10000000",
+        "2026-03-14"
+      ],
+      [
+        "GBP/EUR",
+        "3M",
+        "1.1650",
+        "5000000",
+        "2026-05-14"
+      ],
+      [
+        "EUR/JPY",
+        "6M",
+        "162.45",
+        "8000000",
+        "2026-08-14"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0006-4000-8000-000000000006",
+    "fileName": "real_estate_US.csv",
+    "uploadedAt": "2026-02-20T16:30:00.000Z",
+    "headers": [
+      "REIT",
+      "Sector",
+      "MarketCap",
+      "DivYield",
+      "Region"
+    ],
+    "rows": [
+      [
+        "SPG",
+        "Retail",
+        "45B",
+        "5.2%",
+        "US"
+      ],
+      [
+        "PLD",
+        "Industrial",
+        "110B",
+        "2.8%",
+        "US"
+      ],
+      [
+        "AMT",
+        "Infrastructure",
+        "90B",
+        "3.1%",
+        "US"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0007-4000-8000-000000000007",
+    "fileName": "crypto_assets_GLOBAL.csv",
+    "uploadedAt": "2026-02-25T22:10:00.000Z",
+    "headers": [
+      "Symbol",
+      "Name",
+      "Network",
+      "MarketCap",
+      "Category"
+    ],
+    "rows": [
+      [
+        "BTC",
+        "Bitcoin",
+        "Bitcoin",
+        "1.2T",
+        "Store of Value"
+      ],
+      [
+        "ETH",
+        "Ethereum",
+        "Ethereum",
+        "400B",
+        "Smart Contract"
+      ],
+      [
+        "SOL",
+        "Solana",
+        "Solana",
+        "80B",
+        "Smart Contract"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0008-4000-8000-000000000008",
+    "fileName": "equity_trading_EU.csv",
+    "uploadedAt": "2026-03-01T10:00:00.000Z",
+    "headers": [
+      "ISIN",
+      "Ticker",
+      "Name",
+      "Currency",
+      "Exchange"
+    ],
+    "rows": [
+      [
+        "NL0010273215",
+        "ASML",
+        "ASML Holding",
+        "EUR",
+        "Euronext"
+      ],
+      [
+        "DE0007164600",
+        "SAP",
+        "SAP SE",
+        "EUR",
+        "XETRA"
+      ],
+      [
+        "FR0000121014",
+        "LVMH",
+        "LVMH Moet Hennessy",
+        "EUR",
+        "Euronext"
+      ],
+      [
+        "CH0038863350",
+        "NESN",
+        "Nestle SA",
+        "CHF",
+        "SIX"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0009-4000-8000-000000000009",
+    "fileName": "structured_products_APAC.csv",
+    "uploadedAt": "2026-03-05T06:45:00.000Z",
+    "headers": [
+      "Product",
+      "Underlying",
+      "Barrier",
+      "Maturity",
+      "Currency"
+    ],
+    "rows": [
+      [
+        "SP-001",
+        "Nikkei 225",
+        "70%",
+        "2027-03-05",
+        "JPY"
+      ],
+      [
+        "SP-002",
+        "Hang Seng",
+        "65%",
+        "2027-06-05",
+        "HKD"
+      ],
+      [
+        "SP-003",
+        "KOSPI 200",
+        "75%",
+        "2026-12-05",
+        "KRW"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0010-4000-8000-000000000010",
+    "fileName": "etf_listings_US.csv",
+    "uploadedAt": "2026-03-08T13:20:00.000Z",
+    "headers": [
+      "Ticker",
+      "Name",
+      "AUM",
+      "ExpenseRatio",
+      "Category"
+    ],
+    "rows": [
+      [
+        "SPY",
+        "SPDR S&P 500",
+        "500B",
+        "0.09%",
+        "Large Cap Blend"
+      ],
+      [
+        "QQQ",
+        "Invesco QQQ",
+        "250B",
+        "0.20%",
+        "Large Cap Growth"
+      ],
+      [
+        "IWM",
+        "iShares Russell 2000",
+        "60B",
+        "0.19%",
+        "Small Cap Blend"
+      ],
+      [
+        "VTI",
+        "Vanguard Total Stock",
+        "350B",
+        "0.03%",
+        "Total Market"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0011-4000-8000-000000000011",
+    "fileName": "private_equity_EU.csv",
+    "uploadedAt": "2026-03-10T09:00:00.000Z",
+    "headers": [
+      "Fund",
+      "Vintage",
+      "Strategy",
+      "Size",
+      "Status"
+    ],
+    "rows": [
+      [
+        "Europa Growth IV",
+        "2024",
+        "Growth",
+        "2.5B EUR",
+        "Investing"
+      ],
+      [
+        "Nordic Buyout VII",
+        "2025",
+        "Buyout",
+        "1.8B EUR",
+        "Fundraising"
+      ],
+      [
+        "MedTech Partners III",
+        "2023",
+        "Sector",
+        "800M EUR",
+        "Harvesting"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0012-4000-8000-000000000012",
+    "fileName": "sovereign_bonds_APAC.csv",
+    "uploadedAt": "2026-03-12T04:30:00.000Z",
+    "headers": [
+      "ISIN",
+      "Country",
+      "Coupon",
+      "Maturity",
+      "Currency"
+    ],
+    "rows": [
+      [
+        "JP1201521HB1",
+        "Japan",
+        "0.10%",
+        "2031-03-20",
+        "JPY"
+      ],
+      [
+        "AU3TB0000143",
+        "Australia",
+        "2.75%",
+        "2028-06-21",
+        "AUD"
+      ],
+      [
+        "SG7Q99939698",
+        "Singapore",
+        "2.125%",
+        "2029-07-01",
+        "SGD"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0013-4000-8000-000000000013",
+    "fileName": "credit_default_swaps_US.csv",
+    "uploadedAt": "2026-03-13T15:45:00.000Z",
+    "headers": [
+      "Reference",
+      "Tenor",
+      "Spread",
+      "Notional",
+      "Rating"
+    ],
+    "rows": [
+      [
+        "Ford Motor Co",
+        "5Y",
+        "180bps",
+        "50M",
+        "BBB-"
+      ],
+      [
+        "Goldman Sachs",
+        "5Y",
+        "65bps",
+        "100M",
+        "A+"
+      ],
+      [
+        "AT&T Inc",
+        "5Y",
+        "120bps",
+        "75M",
+        "BBB"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0014-4000-8000-000000000014",
+    "fileName": "mutual_funds_GLOBAL.csv",
+    "uploadedAt": "2026-03-14T12:00:00.000Z",
+    "headers": [
+      "ISIN",
+      "Fund",
+      "Manager",
+      "AUM",
+      "Category"
+    ],
+    "rows": [
+      [
+        "LU0048573561",
+        "Fidelity Global",
+        "Fidelity",
+        "12B",
+        "Global Equity"
+      ],
+      [
+        "IE00B4L5Y983",
+        "iShares Core MSCI",
+        "BlackRock",
+        "45B",
+        "Global Equity"
+      ],
+      [
+        "LU0099574567",
+        "Templeton Global",
+        "Franklin",
+        "8B",
+        "Global Bond"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0015-4000-8000-000000000015",
+    "fileName": "venture_capital_US.csv",
+    "uploadedAt": "2026-03-15T18:30:00.000Z",
+    "headers": [
+      "Company",
+      "Stage",
+      "Sector",
+      "Raised",
+      "Lead"
+    ],
+    "rows": [
+      [
+        "NeoBank AI",
+        "Series B",
+        "Fintech",
+        "85M",
+        "Sequoia"
+      ],
+      [
+        "QuantumSecure",
+        "Series A",
+        "Cybersecurity",
+        "25M",
+        "a16z"
+      ],
+      [
+        "GreenGrid",
+        "Seed",
+        "CleanTech",
+        "8M",
+        "Kleiner Perkins"
+      ],
+      [
+        "HealthLens",
+        "Series C",
+        "HealthTech",
+        "120M",
+        "GV"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0016-4000-8000-000000000016",
+    "fileName": "insurance_linked_EU.csv",
+    "uploadedAt": "2026-03-16T07:15:00.000Z",
+    "headers": [
+      "Bond",
+      "Peril",
+      "Trigger",
+      "Coupon",
+      "Maturity"
+    ],
+    "rows": [
+      [
+        "CAT-EU-2026",
+        "Windstorm",
+        "Industry Loss",
+        "6.5%",
+        "2029-01-15"
+      ],
+      [
+        "CAT-EU-2027",
+        "Earthquake",
+        "Parametric",
+        "8.0%",
+        "2030-07-01"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0017-4000-8000-000000000017",
+    "fileName": "infrastructure_debt_APAC.csv",
+    "uploadedAt": "2026-03-16T09:00:00.000Z",
+    "headers": [
+      "Project",
+      "Country",
+      "Sector",
+      "Tenor",
+      "Spread"
+    ],
+    "rows": [
+      [
+        "Sydney Metro West",
+        "Australia",
+        "Transport",
+        "15Y",
+        "175bps"
+      ],
+      [
+        "Mumbai Solar Park",
+        "India",
+        "Energy",
+        "20Y",
+        "250bps"
+      ],
+      [
+        "Jakarta Toll Road",
+        "Indonesia",
+        "Transport",
+        "12Y",
+        "300bps"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0018-4000-8000-000000000018",
+    "fileName": "equity_options_US.csv",
+    "uploadedAt": "2026-03-16T11:30:00.000Z",
+    "headers": [
+      "Underlying",
+      "Strike",
+      "Expiry",
+      "Type",
+      "Premium"
+    ],
+    "rows": [
+      [
+        "AAPL",
+        "200",
+        "2026-06-20",
+        "Call",
+        "12.50"
+      ],
+      [
+        "TSLA",
+        "250",
+        "2026-06-20",
+        "Put",
+        "18.75"
+      ],
+      [
+        "NVDA",
+        "900",
+        "2026-09-18",
+        "Call",
+        "45.00"
+      ],
+      [
+        "AMZN",
+        "200",
+        "2026-06-20",
+        "Call",
+        "8.25"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0019-4000-8000-000000000019",
+    "fileName": "green_bonds_EU.csv",
+    "uploadedAt": "2026-03-16T14:00:00.000Z",
+    "headers": [
+      "ISIN",
+      "Issuer",
+      "UseOfProceeds",
+      "Coupon",
+      "Maturity"
+    ],
+    "rows": [
+      [
+        "XS2345678901",
+        "EIB",
+        "Renewable Energy",
+        "1.25%",
+        "2031-05-15"
+      ],
+      [
+        "FR0014008YD8",
+        "Republic of France",
+        "Clean Transport",
+        "1.75%",
+        "2039-06-25"
+      ],
+      [
+        "DE000A3E5SW4",
+        "KfW",
+        "Energy Efficiency",
+        "0.875%",
+        "2028-09-15"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0020-4000-8000-000000000020",
+    "fileName": "commodity_indices_GLOBAL.csv",
+    "uploadedAt": "2026-03-16T16:45:00.000Z",
+    "headers": [
+      "Index",
+      "Provider",
+      "Components",
+      "ReturnType",
+      "Currency"
+    ],
+    "rows": [
+      [
+        "S&P GSCI",
+        "S&P",
+        "24",
+        "Excess Return",
+        "USD"
+      ],
+      [
+        "BCOM",
+        "Bloomberg",
+        "23",
+        "Total Return",
+        "USD"
+      ],
+      [
+        "CRB",
+        "Refinitiv",
+        "19",
+        "Spot",
+        "USD"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0021-4000-8000-000000000021",
+    "fileName": "repo_agreements_US.csv",
+    "uploadedAt": "2026-03-17T08:00:00.000Z",
+    "headers": [
+      "Counterparty",
+      "Collateral",
+      "Rate",
+      "Term",
+      "Notional"
+    ],
+    "rows": [
+      [
+        "JPMorgan",
+        "UST 10Y",
+        "5.25%",
+        "Overnight",
+        "500M"
+      ],
+      [
+        "Citigroup",
+        "UST 2Y",
+        "5.30%",
+        "1W",
+        "250M"
+      ],
+      [
+        "Bank of America",
+        "Agency MBS",
+        "5.35%",
+        "1M",
+        "300M"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0022-4000-8000-000000000022",
+    "fileName": "securitized_products_US.csv",
+    "uploadedAt": "2026-03-17T09:15:00.000Z",
+    "headers": [
+      "Tranche",
+      "Type",
+      "Rating",
+      "WAL",
+      "Spread"
+    ],
+    "rows": [
+      [
+        "RMBS 2026-1 A1",
+        "RMBS",
+        "AAA",
+        "3.5Y",
+        "85bps"
+      ],
+      [
+        "CLO 2026-2 BB",
+        "CLO",
+        "BB",
+        "7.2Y",
+        "450bps"
+      ],
+      [
+        "ABS 2026-3 A",
+        "Auto ABS",
+        "AAA",
+        "2.1Y",
+        "55bps"
+      ],
+      [
+        "CMBS 2026-1 A2",
+        "CMBS",
+        "AAA",
+        "4.8Y",
+        "95bps"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0023-4000-8000-000000000023",
+    "fileName": "emerging_markets_LATAM.csv",
+    "uploadedAt": "2026-03-17T10:30:00.000Z",
+    "headers": [
+      "ISIN",
+      "Country",
+      "Instrument",
+      "Yield",
+      "Maturity"
+    ],
+    "rows": [
+      [
+        "BRSTNCNTB3E8",
+        "Brazil",
+        "NTN-B",
+        "6.25%",
+        "2030-08-15"
+      ],
+      [
+        "MX0MGO0001H9",
+        "Mexico",
+        "MBONO",
+        "9.50%",
+        "2029-06-20"
+      ],
+      [
+        "CL0002591835",
+        "Chile",
+        "BTP",
+        "4.70%",
+        "2028-03-01"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0024-4000-8000-000000000024",
+    "fileName": "hedge_fund_allocations_GLOBAL.csv",
+    "uploadedAt": "2026-03-17T11:45:00.000Z",
+    "headers": [
+      "Fund",
+      "Strategy",
+      "AUM",
+      "YTD",
+      "Sharpe"
+    ],
+    "rows": [
+      [
+        "Bridgewater Pure Alpha",
+        "Global Macro",
+        "150B",
+        "4.2%",
+        "0.85"
+      ],
+      [
+        "Citadel Wellington",
+        "Multi-Strategy",
+        "60B",
+        "8.1%",
+        "1.45"
+      ],
+      [
+        "Two Sigma Compass",
+        "Quant Equity",
+        "40B",
+        "6.7%",
+        "1.20"
+      ],
+      [
+        "DE Shaw Composite",
+        "Multi-Strategy",
+        "35B",
+        "5.5%",
+        "1.10"
+      ]
+    ]
+  },
+  {
+    "id": "a1b2c3d4-0025-4000-8000-000000000025",
+    "fileName": "equity_trading_APAC.csv",
+    "uploadedAt": "2026-03-17T12:00:00.000Z",
+    "headers": [
+      "ISIN",
+      "Ticker",
+      "Name",
+      "Currency",
+      "Exchange"
+    ],
+    "rows": [
+      [
+        "JP3633400001",
+        "7203",
+        "Toyota Motor",
+        "JPY",
+        "TSE"
+      ],
+      [
+        "CNE1000003G1",
+        "0700.HK",
+        "Tencent Holdings",
+        "HKD",
+        "HKEX"
+      ],
+      [
+        "AU000000BHP4",
+        "BHP",
+        "BHP Group",
+        "AUD",
+        "ASX"
+      ],
+      [
+        "INE002A01018",
+        "RELIANCE",
+        "Reliance Industries",
+        "INR",
+        "NSE"
+      ]
+    ]
+  }
+]

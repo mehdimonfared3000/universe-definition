@@ -1,0 +1,1 @@
+export { UniverseTable } from "./UniverseTable";
