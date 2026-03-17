@@ -1,6 +1,6 @@
 # Universe Definition Table
 
-A React-based table UI for managing Universe Definitions lists of instruments or services
+A React-based table UI for managing Universe Definitions lists of instruments or services.
 
 ## Running the Project
 
@@ -23,7 +23,7 @@ npm run dev:client   # Vite dev server only (port 5173)
 ## Tech Stack
 
 - **React 19** + TypeScript
-- **Vite 8** —
+- **Vite 8**
 - **Tailwind CSS v4**
 - **shadcn/ui-style components**
 - **Lucide React**
@@ -32,7 +32,7 @@ npm run dev:client   # Vite dev server only (port 5173)
 
 ## API
 
-The backend is a lightweight Express server (`server/index.js`) that persists data to a local JSON file (`server/data.json`). It comes pre-seeded with 25 entries
+The backend is a lightweight Express server (`server/index.js`) that persists data to a local JSON file (`server/data.json`). It comes pre-seeded with 25 entries.
 
 ### Endpoints
 
@@ -78,17 +78,17 @@ Folder structure is kept minimal with top level folders being api, components, h
 
 ## What I Would Improve With More Time
 
-The filter buttons are currently visual-only; would implement actual dropdown menus with filter logic
-Id add arrow key navigation within the table and Shift+Click for range selection
-Add React Testing Library tests for the table selection logic and loading states
-Implement the file upload flow with drag-and-drop
-Replace the JSON file store with a database
-Prettier configuation
-React Router
-Localisation and internationalisation of language and date/times
-Add Zod for runtime data schema validation
-Enviroment variables for configuation of different enviroments
-Implement Storybook for component visulation and snapshot testing
-E2E testing for a small number of key flows such as add and delete
-Better breakdown of components as some a little too big for my liking.
-When the table logic becomes more involved I would look to bring in a third party table library such as tanstack table.
+- The filter buttons are currently visual-only; would implement actual dropdown menus with filter logic
+- Id add arrow key navigation within the table and Shift+Click for range selection
+- Add React Testing Library tests for the table selection logic and loading states
+- Implement the file upload flow with drag-and-drop
+- Replace the JSON file store with a database
+- Prettier configuation
+- React Router
+- Localisation and internationalisation of language and date/times
+- Add Zod for runtime data schema validation
+- Enviroment variables for configuation of different enviroments
+- Implement Storybook for component visulation and snapshot testing
+- E2E testing for a small number of key flows such as add and delete
+- Better breakdown of components as some a little too big for my liking.
+- When the table logic becomes more involved I would look to bring in a third party table library such as tanstack table.
